@@ -1,4 +1,4 @@
-# Changes from the create-react-app typescript template
+# Changes from the [create-react-app typescript template](https://www.npmjs.com/package/cra-template-typescript)
 
 ## [emotion](https://emotion.sh/docs/introduction)
 
