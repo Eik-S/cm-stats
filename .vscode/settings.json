@@ -14,5 +14,6 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
-  "stylelint.validate": ["typescript", "typescriptreact"]
+  "stylelint.validate": ["typescript", "typescriptreact"],
+  "terraform.experimentalFeatures.validateOnSave": true
 }
