@@ -10,7 +10,7 @@ resource "aws_lambda_function" "cm_crawler" {
   timeout                        = 60
   memory_size                    = 128
   reserved_concurrent_executions = 1
-  handler = "index.handler"
+  handler = "cm-crawler/index.handler"
   filename                       = local.lambda_cm_crawler_package_path
   source_code_hash               = filebase64sha256(local.lambda_cm_crawler_package_path)
   environment {
