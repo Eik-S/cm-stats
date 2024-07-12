@@ -6,7 +6,7 @@ export async function handler() {
   const key = createS3KeyFromDate(priceList.createdAt)
   const exists = await checkIfS3ObjectExists(key)
   if (exists === false) {
-    saveToS3(key, priceList)
+    await saveToS3(key, priceList)
   }
 }
 
